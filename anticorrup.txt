@@ -26,7 +26,7 @@ cd
 
 //Maria
 
-git config --global user.email "karitoarianne2411@gmail.edu.ec"
+git config --global user.email "karitoarianne2411@gmail.com"
 git config --global user.name "lisorte"
 
 cd psw/taller-anticorrupcion
@@ -44,7 +44,7 @@ cd
 
 // Jorge
 git config --global user.email "lisaortepe1989alexa@gmail.com"
-git config --global user.name "lisortegape"
+git config --global user.name "lisaortegape"
 
 cd psw/taller-anticorrupcion
 git init
@@ -67,7 +67,7 @@ cd
 
 //Maria 
 
-git config --global user.email "karitoarianne2411@gmail.edu.ec"
+git config --global user.email "karitoarianne2411@gmail.com"
 git config --global user.name "lisorte"
 cd psw/taller-anticorrupcion
 git init
