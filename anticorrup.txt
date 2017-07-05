@@ -1,0 +1,82 @@
+//Jorge
+
+git config --global user.email "lisaortepe1989alexa@gmail.com"
+git config --global user.name "lisaortegape"
+mkdir psw
+cd psw
+mkdir taller-anticorrupcion
+cd taller-anticorrupcion
+
+git init
+git branch desarrollo
+git branch produccion
+git push origin desarrollo
+git push origin produccion
+
+touch index.htm
+echo "Inicio" >> index.htm
+
+git add .
+git status
+git commit -m "Index"
+git remote add origin https://github.com/lisaortegape/taller-anticorrupcion.git
+git push origin master
+cd
+
+
+//Maria
+
+git config --global user.email "karitoarianne2411@gmail.edu.ec"
+git config --global user.name "lisorte"
+
+cd psw/taller-anticorrupcion
+git init
+git checkout desarrollo
+touch qsomos.htm
+echo "qsomos" >> qsomos.htm
+
+git add .
+git status
+git commit -m "Qsomos"
+git push origin desarrollo
+cd
+
+
+// Jorge
+git config --global user.email "lisaortepe1989alexa@gmail.com"
+git config --global user.name "lisortegape"
+
+cd psw/taller-anticorrupcion
+git init
+touch about.htm
+echo "about" >> about.htm
+git add .
+git status
+git commit -m "About"
+git push origin master
+
+git merge desarrollo
+git push origin master
+
+git checkout produccion
+ 
+git merge master
+git push origin produccion
+cd
+
+
+//Maria 
+
+git config --global user.email "karitoarianne2411@gmail.edu.ec"
+git config --global user.name "lisorte"
+cd psw/taller-anticorrupcion
+git init
+git checkout produccion
+touch contactenos.htm
+echo "Contactenos" >> contactenos.htm
+git add .
+git status
+git commit -m "Contactenos"
+git push origin produccion
+
+URL: https://github.com/lisaortegape/taller-anticorrupcion.git
